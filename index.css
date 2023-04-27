@@ -1,0 +1,144 @@
+
+/*css reset*/
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.navbar {
+	font-family: 'Cormorant';
+	font-size: 20px;
+	color: white;
+	
+}
+.navbar-brand {
+
+	font-family: 'Cormorant';
+	font-size: 40px;
+	color: white;
+}
+
+
+.navbar-brand{
+	font-size: 20px;
+	font-family: Cormorant;
+}
+
+#navbg{
+	background-color: #DFDAD2;
+	position: sticky top;	
+	z-index: 1;
+}
+
+
+#navbar-top{
+	top: 0px;
+	bottom: 20px;
+	z-index: 1;
+	margin-left: 20px;
+	margin-right: 20px;
+
+
+}
+
+#my-picture{
+	float: right;
+	border-radius: 25px;
+	height: 300px;
+	width: 300px;
+	margin-right: 7rem;
+
+}
+
+.nav-link {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+body {
+	background-color: #DFDAD2;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	font-family: Cormorant;
+	font-weight: bold;
+
+}
+
+#cont-sam{
+	border-radius: 40px;
+}
+
+#mdy-logo{
+	height: 300px;
+	width: 300px;
+	margin-left: 5rem;
+	margin-top: 3rem;
+
+
+}
+
+.images{
+	height: 250px;
+	width: 250px;
+	border-radius: 25px;
+}
+
+#gal-ry{
+	border-radius: 40px;
+}
+
+#galleryTitle{
+	font-family: Special Elite;
+}
+
+#img-bot{
+	height: 300px;
+	width: 450px;
+	border-radius: 25px;
+}
+
+#project{
+	border-radius: 40px;
+	margin-top: 3rem;
+}
+
+#projectTitle{
+	font-family: Special Elite;
+}
+
+#label{
+	font-family: Special Elite;
+	font-size: 32px;
+	text-align: center;
+}
+
+#contacts{
+	margin-top: 3rem;
+	border-radius: 25px;
+
+
+}
+
+#id-name-tag{
+	padding-top: 1.5rem;
+}
+
+#container-bgg{
+	background-color: #DFDAD2;
+	padding-bottom: 2rem;
+	border-radius: 10px;
+	
+}
+
+footer {
+	height: 4rem;
+	color: white;
+	font-family: 'Cormorant';
+}
+
+#footer-text{
+	padding: 1rem;
+}
