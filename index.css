@@ -67,6 +67,10 @@ body {
 
 }
 
+#description{
+	float: right;
+}
+
 #cont-sam{
 	border-radius: 40px;
 }
@@ -130,7 +134,7 @@ body {
 	background-color: #DFDAD2;
 	padding-bottom: 2rem;
 	border-radius: 10px;
-	
+
 }
 
 footer {
