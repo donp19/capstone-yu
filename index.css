@@ -96,8 +96,10 @@ body {
 	margin-left: 5rem;
 	margin-top: 3rem;
 
+}
 
-
+#nav-name{
+	font-family: Satisfy;
 }
 
 .images{
@@ -184,7 +186,7 @@ body {
 footer {
 	height: 4rem;
 	color: black;
-	font-family: 'Special Elite';
+	font-family: Cormorant;
 	font-weight: bold;
 }
 
