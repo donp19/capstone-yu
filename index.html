@@ -18,7 +18,7 @@
 		</head>
 		<body>
 			<div id="top">
-				<div class="container" id="home">
+				<div class="container-fluid text-center" id="home">
 
 					<nav class="navbar navbar-expand-lg navbar-light sticky-top" id="navbg">
 					  <a class="navbar-brand" href="#home">Marwin Dominique Yu</a>
@@ -26,7 +26,7 @@
 					    <span class="navbar-toggler-icon"></span>
 					  </button>
 					  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					    <div class="navbar-nav ml-auto" id="navbar-top">
+					    <div class="navbar-nav ml-auto text-center" id="navbar-top">
 					      <a class="nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
 					      <a class="nav-link" href="#gal-ry">Gallery</a>
 					      <a class="nav-link" href="#project">Projects</a>
@@ -38,13 +38,12 @@
 					<div class=" text-dark d-inline-block bg-light text-light min-vh-100 p-3 p-md-5 p-sm-3" id="cont-sam">
 							<img class="mt-5 mt-md-0" src="./images/mypicture.jpg" id="my-picture">
 
-							<h1>Hi, my name is Marwin!</h1>
-							<h3>Full-Stack Developer</h3>
+							<h1 id="header">Hi, my name is Marwin!</h1>
+							<h3 id="header-descrip">Full-Stack Developer</h3>
 
 							<div class="row mt-5">
-								<div class="offset-md-2 col-md-8">
-									<p>
-										“Learning HTML and CSS is a lot more challenging than it used to be. Responsive web design adds more layers of complexity to design and develop websites.”
+								<div id="my-descrip">
+									<p>"I am a software development enthusiast currently practicing at Zuitt to learn both front-end and back-end development. Through Zuitt's programs, I am gaining hands-on experience and building a strong foundation in software development. I am passionate about creating innovative solutions to complex problems, and I'm excited to continue learning and growing my skills in the field. In the future, I hope to specialize in a particular area of software development and contribute to the industry through my work."
 									</p>
 								</div>
 
@@ -53,7 +52,6 @@
 								
 								</div>
 
-								
 							</div>
 					</div>
 					<!-- landing page end -->
@@ -61,13 +59,13 @@
 					<!-- gallery start -->
 					
 
-					<div class="text-center text-dark d-inline-block bg-light text-light min-vh-100 p-3 p-md-5 p-sm-3 mt-5" id="gal-ry">
+					<div class="container-fluid text-center text-dark d-inline-block bg-light text-light min-vh-100 p-3 p-md-5 p-sm-3 mt-5" id="gal-ry">
 						<h2 id="galleryTitle">Gallery</h2>
                    		 <div class="row justify-content-center d-sm-flex" id="gallery">
                     		<img src="./images/web1.jpg" class="mt-5 mr-3 images">
                     		<img src="./images/web2.jpg" class="mt-5 mr-3 images">
                     		<img src="./images/web3.jpg" class="mt-5 mr-3 images">
-                    		<img src="./images/web4.jpg" class="mt-5 images" id="img-bot">
+                    		<img src="./images/web4.jpg" class="mt-5 images" >
 
 							
 						</div>
@@ -77,53 +75,37 @@
 					<!-- project start -->
 					<div class="text-dark d-inline-block bg-light text-dark min-vh-100 p-3 p-md-5 p-sm-3" id="project">
 							<h3 class="text-dark text-center" id="projectTitle">PROJECTS</h3>
-							<div id="projectBg">
-								<div class="card mb-3">
-								  <div class="row g-0">
-								    <div class="col-md-4">
-								      <img src="./images/sampleada.png" class="img-fluid rounded-start" alt="..." >
-								    </div>
-								    <div class="col-md-8">
-								      <div class="card-body">
-								        <h5 class="card-title">Project 1</h5>
-								        <p class="card-text">This is an example project. A profile of Ada Lovelace with 3 cards below.</p>
-								        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-								      </div>
-								    </div>
-								  </div>
-								</div>
+							
+							<div class="d-lg-flex justify-content-center p-md-5">
 
-								<div class="card mb-3">
-								  <div class="row g-0">
-								    <div class="col-md-4">
-								      <img src="./images/samplemarwin.png" class="img-fluid rounded-start" alt="...">
-								    </div>
-								    <div class="col-md-8">
-								      <div class="card-body">
-								        <h5 class="card-title">Project 2</h5>
-								        <p class="card-text">This is an example project. My First Portfolio being deployed to the web.</p>
-								        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-								      </div>
-								    </div>
+								<!-- Ada Lovelace Start -->
+								<div class="card bg-light col-xl-4 mb-5 mb-xl-0">
+								  <div class="card-body">
+								  	<img src="./images/sampleada.png" class="card-img-top">
+								    <h5 class="card-title mt-3">Ada Lovelace</h5>
+								    <h6 class="card-subtitle mb-2 text-muted">Ada Lovelace Profile</h6>
+								    <p class="card-text">Augusta Ada King, Countess of Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.</p>
+								    <a href="./project1/index.html" class="card-link">Link to project</a>
 								  </div>
 								</div>
-								<div class="card mb-3">
-								  <div class="row g-0">
-								    <div class="col-md-4">
-								      <img src="./images/samplezuitt.png" class="img-fluid rounded-start" alt="...">
-								    </div>
-								    <div class="col-md-8">
-								      <div class="card-body">
-								        <h5 class="card-title">Project 3</h5>
-								        <p class="card-text">This is a example project. A Landing Page of Zuitt from our session.</p>
-								        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-								      </div>
-								    </div>
+								<!-- Ada Lovelace End -->
+
+								<!--Marwin Start -->
+								<div class="card bg-light col-xl-4 mb-5 mb-xl-0 mr-xl-5 ml-xl-5">
+								  <div class="card-body">
+								  	<img src="./images/samplemarwin.png" class="card-img-top">
+								    <h5 class="card-title mt-3">Marwin Yu</h5>
+								    <h6 class="card-subtitle mb-2 text-muted">Marwin Sample Profile </h6>
+								    <p class="card-text">I am a culinary arts graduate from the International School for Culinary Arts and Hotel Management. During my time in school, I learned about a variety of cuisines and cooking techniques, as well as the hospitality industry.</p>
+								    <a href="./project2/index.html" class="card-link">Link to project</a>
 								  </div>
 								</div>
-							</div>
+								<!-- Marwin End -->
+
+							
 							
 						</div>
+					</div>
 
 
 					<!-- project end -->
@@ -134,7 +116,7 @@
 									<div class="container-fluid bg-light min-vh-100  pt-5 pb-5" id="contacts">
 												<h3 id="label">Contact Me</h3>
 										
-										<div class="container w-50" id="container-bgg">
+										<div class="col-md-6 container w-50" id="container-bgg">
 
 										<div class="mb-3">
 										  <label for="formGroupExampleInput" class="form-label text-dark" id="id-name-tag" >Name</label>
@@ -193,6 +175,7 @@
 								                  </div>
 								                </div>
 								              </div>   
+					
 					<!-- contact end -->
 
 				</div>
