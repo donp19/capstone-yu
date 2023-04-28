@@ -36,6 +36,7 @@ html{
 	width: 100%;
 	position: fixed;
 
+
 }
 
 
@@ -55,6 +56,9 @@ html{
 	height: 300px;
 	width: 300px;
 	margin-right: 7rem;
+	box-shadow: 14px 11px 24px 0px rgba(0,0,0,0.56);
+	-webkit-box-shadow: 14px 11px 24px 0px rgba(0,0,0,0.56);
+	-moz-box-shadow: 14px 11px 24px 0px rgba(0,0,0,0.56);
 
 }
 
